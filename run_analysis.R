@@ -119,10 +119,10 @@ dim(finalDF)
 
 summary(finalDF)
 
-myf_d <- finalDF %>% group_by(activity) %>% summarise_if(is.numeric, mean, na.rm = TRUE)
+#myf_d <- finalDF %>% group_by(activity) %>% summarise_if(is.numeric, mean, na.rm = TRUE)
 
-head(myf_d, n=6)
+#head(myf_d, n=6)
 
-write.table(finalDF, "./final_output.txt", col.names=FALSE, row.names = FALSE)
+write.table(finalDF, "./final_output.txt", row.names = FALSE)
 
-write.table(myf_d, "./final_output2.txt",  row.names = FALSE)
+

@@ -40,10 +40,6 @@ and combined them using the means and average. rowMeans() function was used for
 every group available in the subset and average mean for the variables formed 
 the columns
 
-## Finding average alias mean on data
-
-* For every activity, the columns means were computed and stored in the text files.
-
 
 ## storing results
 

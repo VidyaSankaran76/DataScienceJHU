@@ -46,3 +46,5 @@ the columns
 
 
 ## storing results
+
+The results are stored in a text file with the row names given as false. 

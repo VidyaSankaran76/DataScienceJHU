@@ -33,6 +33,40 @@ The set of variables that were estimated from these signals are:
 mean(): Mean 
 std(): Standard deviation
 
+so the names would be :
+
+tBodyAcc-mean
+tGravityAcc-mean
+tBodyAccJerk-mean
+tBodyGyro-mean
+tBodyGyroJerk-mean
+tBodyAccMag_mean
+tGravityAccMag_mean
+tBodyAccJerkMag_mean
+tBodyGyroMag_mean
+tBodyGyroJerkMag_mean
+fBodyAcc_mean
+fBodyAccJerk-mean
+fBodyGyro-mean
+fBodyAccMag_mean
+fBodyAccJerkMag_mean
+fBodyGyroMag_mean
+fBodyGyroJerkMag_mean
+
+
+Summarired XYZ to single row Mean in the code.
+similarly done for std.
+
+tBodyAcc-std
+tGravityAcc-std
+tBodyAccJerk-std
+tBodyGyro-std
+tBodyGyroJerk-std
+fBodyAcc_std
+fBodyAccJerk-std
+fBodyGyro-std
+
+
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
@@ -42,6 +76,11 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
+
+
+Subject:
+
+Each indiviual subjects were given an id : 1, 2 etc and their corresponding activities are given in each row.
 
 
 The activities are:

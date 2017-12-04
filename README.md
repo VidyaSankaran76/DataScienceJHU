@@ -8,11 +8,15 @@ information of what activities were performed
 * Provided the right path, the data files were read for train and test sets as numeric form for X variables and factors for Y variables.
 * saved the read X tables and Y tables in different data frames
 
+* Subject data read from subject_train and subject_txt files and read the subjects as
+factors
+
 ## Combining train and Test sets
-* Using rbind function in R the train and test sets of X  and Y were merged
+* Using rbind function in R the train and test sets of X, subject  and Y were merged
 
 
 ## Naming the columns and cleaning columns
+* subject was named as subject itself
 
 * Y set had activity information and hence the name was choosen as activity and assinged using colnames()
 
